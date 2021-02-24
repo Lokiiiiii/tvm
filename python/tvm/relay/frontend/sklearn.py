@@ -31,6 +31,7 @@ from .common import infer_value as _infer_value
 
 kDateTimeCols = 7
 
+
 def _SimpleImputer(op, inexpr, dshape, dtype, columns=None):
     """
     Scikit-Learn Transformer:
